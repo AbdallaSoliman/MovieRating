@@ -1,0 +1,6 @@
+com\cloud9s\movierating\login\config\SocialConfig.class
+com\cloud9s\movierating\login\controller\FacebookController.class
+com\cloud9s\movierating\login\controller\TwitterController.class
+com\cloud9s\movierating\SpringBootSocialApplication.class
+com\cloud9s\movierating\login\controller\IndexController.class
+com\cloud9s\movierating\login\controller\GoogleController.class
