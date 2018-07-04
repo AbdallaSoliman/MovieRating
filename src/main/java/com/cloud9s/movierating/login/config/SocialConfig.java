@@ -15,7 +15,7 @@ import org.springframework.social.google.connect.GoogleConnectionFactory;
 
 /**
  *
- * @author Maikel Chandika <mkdika@gmail.com>
+ * @author abdalla
  */
 @Configuration
 @EnableSocial

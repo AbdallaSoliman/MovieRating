@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 /**
  *
- * @author Maikel Chandika <mkdika@gmail.com>
+ * @author abdalla
  */
 @Controller
 public class IndexController {
