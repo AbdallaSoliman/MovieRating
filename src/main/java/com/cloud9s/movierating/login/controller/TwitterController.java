@@ -26,12 +26,13 @@ public class TwitterController {
     }
 
     @GetMapping("/twitter")
-    public ModelAndView facebookController() {
+    public ModelAndView twitterController() {
         ModelAndView model = new ModelAndView();
-        if (connectionRepository.findPrimaryConnection(Twitter.class) != null) {            
-            model.addObject("twitterProfile", twitter.userOperations().getUserProfile());            
-        }
         model.setViewName("connect/twitterProfile");
+        if (connectionRepository.findPrimaryConnection(Twitter.class) != null) {
+            model.addObject("twitterProfile", twitter.userOperations().getUserProfile());
+        }
+
         return model;
     }
 }
